@@ -1,0 +1,60 @@
+# Build outputs
+build/
+*.o
+*.so
+*.dll
+*.dylib
+*.a
+
+# Debug files
+*.dSYM/
+*.su
+.gdb_history
+
+# Output files
+hypertracer_output.txt
+hypertracer_report.html
+*.log
+
+# Temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Compiler specific
+*.depend
+*.layout
+*.cbp
+
+# OS specific
+.directory
+*.lnk
+
+# Backup files
+*.bak
+*.orig
+
+# Core dumps
+core
+core.*
+
+# Package files
+*.tar.gz
+*.zip
+*.tar.bz2
+*.tar.xz
+
+# Configuration files (may contain sensitive info)
+config.local
+*.local
+
+# Test files
+test_*
+tests/output/
